@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - printing in c programming using print f fn
  * Return: 0
