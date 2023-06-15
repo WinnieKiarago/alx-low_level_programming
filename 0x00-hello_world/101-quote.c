@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
 * main - 101-quote.c
-* Return: 1 
+* Return: 1
 */
 int main(void)
 {
