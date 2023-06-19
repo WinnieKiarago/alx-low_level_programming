@@ -4,17 +4,17 @@
 *
 * Return: Always return 0 (Success)
 */
-int main (void)
+int main(void)
 {
-        char c;
-
+	char c;
+	
 	char d;
-
-        c = 'a';
+	
+	c = 'a';
 	d = 'A';
-        while
-                (c <= 'z')
-                {
+	while
+		(c <= 'z')
+	       	{
                         putchar (c);
                         c++;
 		}
