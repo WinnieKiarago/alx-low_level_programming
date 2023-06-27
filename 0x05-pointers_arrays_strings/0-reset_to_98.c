@@ -7,11 +7,7 @@
  * Return: 0
  */
 
-int main(void)
+void reset_to_98(int *n);
 {
-	int var = 98;
-	int *ip;
-
-	putchar("Value of *ip variable: %d\n", *ip);
-	return (0);
+	*n = 98;
 }
