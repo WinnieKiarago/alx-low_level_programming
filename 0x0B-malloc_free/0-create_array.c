@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
  /**
   * create_array - creates an array
   * @size: size of the integer
@@ -14,12 +14,12 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 		return (NULL);
-	b = malloc(size * sizeof(char));
+	b=malloc(size * sizeof(char));
 
 	if (b == NULL)
 		return (NULL);
 
-	for (a = 0; a < size, a++)
+	for (a = 0; a < size; a++)
 	{
 		b[a] = c;
 	}
