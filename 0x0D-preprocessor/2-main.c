@@ -2,7 +2,7 @@
 /**
  * main - prints file name
  *
- * Return: 0
+ * Return: 0 (Success)
  */
 int main(void)
 {
