@@ -12,8 +12,15 @@
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
+	{
 		d = malloc(sizeof(struct dog));
-	d->name = name;
+		if (d == NULL)
+		{
+			perror("Memory allocation failed");
+			return;
+		}
+	}
+	d->name = strdup(name);
 	d->age = age;
-	d->owner = owner;
+	d->owner = strdup(owner);
 }
